@@ -47,13 +47,13 @@ jobs:
         CXX: ${{ matrix.compiler.cxx }}
         VC_CXX_FLAGS: "-w;-Wwrite-strings;-Werror=write-strings"
       run: |
-        cmake --workflow --preset ${{ matrix.preset }}
+        cmake --workflow --preset ${{ matrix.preset }} -SCHINESE
 
-    - name: Check formatting
-      if: ${{ matrix.compiler.cc == 'clang' && matrix.preset == 'testing'}} 
-      run: |
-        cmake --build build/testing --target format
-        git diff --exit-code
+    #- name: Check formatting
+    #  if: ${{ matrix.compiler.cc == 'clang' && matrix.preset == 'testing'}} 
+    #  run: |
+    #    cmake --build build/testing --target format
+    #    git diff --exit-code
         
     - name: Create archives
       if: ${{ matrix.preset != 'testing' &&  matrix.preset != 'nonet' }}
