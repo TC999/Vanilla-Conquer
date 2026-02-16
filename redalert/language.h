@@ -54,29 +54,29 @@
 
 #ifdef GERMAN
 #define TEXT_ERROR_TIMER                                                                                               \
-    "Fehler - das Timer-System konnte aufgrund einer Instabilit�t des Systems nicht initialisiert werden. Bitte "      \
+    "Fehler - das Timer-System konnte aufgrund einer Instabilit�t des Systems nicht initialisiert werden. Bitte "      \
     "starten Sie Windows neu."
 #define TEXT_SHORT_TITLE  "C&C:AR"
 #define TEXT_MEMORY_ERROR "Fehler - Kein Speicher mehr."
 #define TEXT_ABORT        "Abbrechen"
-#define TEXT_DDRAW_ERROR  "Fehler - Kann prim�ren Videopuffer nicht finden - Abbruch."
+#define TEXT_DDRAW_ERROR  "Fehler - Kann prim�ren Videopuffer nicht finden - Abbruch."
 #define TEXT_TITLE        "Command & Conquer : Alarmstufe Rot"
 #define TEXT_VIDEO_ERROR  "Fehler - Kann Grafikmodus nicht einstellen."
-#define TEXT_INSUFFICIENT "Nicht genug Festplattenplatz f�r Command & Conquer:AR.\n"
+#define TEXT_INSUFFICIENT "Nicht genug Festplattenplatz f�r Command & Conquer:AR.\n"
 #define TEXT_MUST_HAVE    "Sie brauchen %d MByte freien Platz auf der Festplatte."
 #define TEXT_CRITICALLY_LOW                                                                                            \
-    "Nicht genug Festplattenplatz f�r Command & Conquer:AR.\nSie brauchen %d MByte freien Platz auf der Festplatte."
-#define TEXT_NO_RAM "Zuwenig Hauptspeicher verf�gbar.\n"
+    "Nicht genug Festplattenplatz f�r Command & Conquer:AR.\nSie brauchen %d MByte freien Platz auf der Festplatte."
+#define TEXT_NO_RAM "Zuwenig Hauptspeicher verf�gbar.\n"
 #define TEXT_USE_START_MENU                                                                                            \
-    "\n\rWenn auf Ihrem Rechner Windows 95 l�uft,\n\rstarten Sie die DOS-Version von Alarmstufe Rot\n\rbitte �ber "    \
-    "das Start-Men� von Windows 95.\n\rZum Weitermachen beliebige Taste dr�cken.\n\r"
+    "\n\rWenn auf Ihrem Rechner Windows 95 l�uft,\n\rstarten Sie die DOS-Version von Alarmstufe Rot\n\rbitte �ber "    \
+    "das Start-Men� von Windows 95.\n\rZum Weitermachen beliebige Taste dr�cken.\n\r"
 #define TEXT_SETUP_FIRST "Bitte erst das SETUP-Programm starten.\n"
 #define TEXT_NO_MOUSE    "C&C:AR kann Ihren Maustreiber nicht finden..."
 #define TEXT_FILE_ERROR  "DATEIFEHLER"
-#define TEXT_PRESS_KEY   "Beliebige Taste dr�cken f�r erneuten Versuch."
-#define TEXT_ESC_KEY     "<ESC> dr�cken, um das Programm zu verlassen."
-#define TEXT_TO_EXIT     "Beliebige Taste dr�cken, um das Programm zu verlassen."
-#define TEXT_INVALID     "Ung�ltiger Parameter.\n"
+#define TEXT_PRESS_KEY   "Beliebige Taste dr�cken f�r erneuten Versuch."
+#define TEXT_ESC_KEY     "<ESC> dr�cken, um das Programm zu verlassen."
+#define TEXT_TO_EXIT     "Beliebige Taste dr�cken, um das Programm zu verlassen."
+#define TEXT_INVALID     "Ung�ltiger Parameter.\n"
 #define TEXT_MAP_ERROR   "Kartenfehler!"
 #define TEXT_STOP        "Halt"
 #define TEXT_CONTINUE    "Weiter"
@@ -93,25 +93,25 @@
 
 #ifdef FRENCH
 #define TEXT_ERROR_TIMER                                                                                               \
-    "Error - L'horloge syst�me n'a pas pu s'initialiser en raison de l'instabilit� du syt�me. Vous devez red�marrer "  \
+    "Error - L'horloge syst�me n'a pas pu s'initialiser en raison de l'instabilit� du syt�me. Vous devez red�marrer "  \
     "Windows."
 #define TEXT_SHORT_TITLE  "Alerte Rouge"
-#define TEXT_MEMORY_ERROR "Erreur - Plus de m�moire."
+#define TEXT_MEMORY_ERROR "Erreur - Plus de m�moire."
 #define TEXT_ABORT        "Interrompre"
-#define TEXT_DDRAW_ERROR  " Erreur - Impossible d'allouer le tampon vid�o principal - Interruption."
+#define TEXT_DDRAW_ERROR  " Erreur - Impossible d'allouer le tampon vid�o principal - Interruption."
 #define TEXT_TITLE        "Command & Conquer : Alerte Rouge"
-#define TEXT_VIDEO_ERROR  " Erreur - Impossible d'�tablir le mode vid�o."
+#define TEXT_VIDEO_ERROR  " Erreur - Impossible d'�tablir le mode vid�o."
 #define TEXT_INSUFFICIENT "Espace disque insuffisant pour lancer Command & Conquer.\n"
 #define TEXT_MUST_HAVE    "Vous devez disposer de %d Mo d'espace disponsible sur le disque dur."
 #define TEXT_CRITICALLY_LOW                                                                                            \
     "Espace disque insuffisant pour lancer Command & Conquer.\nVous devez disposer de %d Mo d'espace disponsible sur " \
     "le disque dur."
-#define TEXT_NO_RAM "M�moire vive (RAM) insuffisante.\n"
+#define TEXT_NO_RAM "M�moire vive (RAM) insuffisante.\n"
 #define TEXT_USE_START_MENU                                                                                            \
-    "\n\rSi vous �tes dans Windows 95 vous devez lancer Alerte Rouge\r\nDOS � partir du menu D�marrer de Windows "     \
+    "\n\rSi vous �tes dans Windows 95 vous devez lancer Alerte Rouge\r\nDOS � partir du menu D�marrer de Windows "     \
     "95.\n\rAppuyez sur n'importe quelle touche.\n\r"
 #define TEXT_SETUP_FIRST "Lancez d'abord le programme de configuration SETUP.\n"
-#define TEXT_NO_MOUSE    "Alerte Rouge ne peut pas d�tecter votre gestionnaire de souris."
+#define TEXT_NO_MOUSE    "Alerte Rouge ne peut pas d�tecter votre gestionnaire de souris."
 #define TEXT_FILE_ERROR  "ERREUR DE FICHIER"
 #define TEXT_PRESS_KEY   "Appuyez sur une touche pour recommencer."
 #define TEXT_ESC_KEY     "Appuyez sur Echap pour quitter le programme."
@@ -122,11 +122,48 @@
 #define TEXT_CONTINUE    "Continuer"
 #define TEXT_OPTIONS                                                                                                   \
     "Alerte Rouge (c) 1996, Westwood Studios\r\n"                                                                      \
-    "Param�tres:\r\n"                                                                                                  \
-    "  -DESTNET  = Sp�cifier le num�ro de r�seau du syst�me de destination\r\n"                                        \
+    "Param�tres:\r\n"                                                                                                  \
+    "  -DESTNET  = Sp�cifier le num�ro de r�seau du syst�me de destination\r\n"                                        \
     "              (Syntaxe: DESTNETxx.xx.xx.xx)\r\n"                                                                  \
-    "  -SOCKET   = ID Socket r�seau (0  16383)\r\n"                                                                   \
+    "  -SOCKET   = ID Socket r�seau (0  16383)\r\n"                                                                   \
     "  -STEALTH  = Cacher les noms en mode multijoueurs (\"Mode Boss\")\r\n"                                           \
-    "  -MESSAGES = Autorise les messages ext�rieurs � ce jeu.\r\n"                                                     \
+    "  -MESSAGES = Autorise les messages ext�rieurs � ce jeu.\r\n"                                                     \
+    "\r\n"
+#endif
+
+#ifdef SCHINESE
+#define TEXT_ERROR_TIMER                                                                                               \
+    "错误 - 由于系统不稳定，计时器系统初始化失败。您需要重新启动 Windows。"
+#define TEXT_SHORT_TITLE  "红色警戒"
+#define TEXT_MEMORY_ERROR "错误 - 内存不足。"
+#define TEXT_ABORT        "中止"
+#define TEXT_DDRAW_ERROR  "错误 - 无法分配主视频缓冲区 - 正在中止。"
+#define TEXT_TITLE        "命令与征服：红色警戒"
+#define TEXT_VIDEO_ERROR  "错误 - 无法设置视频模式。"
+#define TEXT_INSUFFICIENT "磁盘空间不足，无法运行红色警戒。\n"
+#define TEXT_MUST_HAVE    "您必须拥有 %d MB 的可用磁盘空间。"
+#define TEXT_CRITICALLY_LOW                                                                                            \
+    "警告 - 您的磁盘空间严重不足，无法保存游戏。您是否仍然想玩红色警戒？"
+#define TEXT_NO_RAM "可用内存不足。\n"
+#define TEXT_USE_START_MENU                                                                                            \
+    "\n\r如果您正在运行 Windows 95，您应该通过 Windows 95 开始菜单启动红色警戒 DOS 版本。\r\n按任意键。\n\r"
+#define TEXT_SETUP_FIRST "请先运行 SETUP 程序。\n"
+#define TEXT_NO_MOUSE    "红色警戒无法检测到您的鼠标驱动程序。"
+#define TEXT_FILE_ERROR  "文件错误"
+#define TEXT_PRESS_KEY   "按任意键重试。"
+#define TEXT_ESC_KEY     "按 <ESC> 键退出程序。"
+#define TEXT_TO_EXIT     "按任意键退出程序。"
+#define TEXT_INVALID     "无效的选项开关。\n"
+#define TEXT_MAP_ERROR   "地图错误！"
+#define TEXT_STOP        "停止"
+#define TEXT_CONTINUE    "继续"
+#define TEXT_OPTIONS                                                                                                   \
+    "红色警戒 (c) 1996, Westwood Studios\r\n"                                                                      \
+    "参数:\r\n"                                                                                                  \
+    "  -DESTNET  = 指定目标系统的网络编号\r\n"                                                   \
+    "              (语法: DESTNETxx.xx.xx.xx)\r\n"                                                                   \
+    "  -SOCKET   = 网络套接字 ID (0 - 16383)\r\n"                                                                   \
+    "  -STEALTH  = 隐藏多人游戏名称（\"老板模式\"）\r\n"                                         \
+    "  -MESSAGES = 允许来自游戏外部的消息。\r\n"                                                     \
     "\r\n"
 #endif
