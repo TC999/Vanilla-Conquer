@@ -47,7 +47,7 @@ jobs:
         CXX: ${{ matrix.compiler.cxx }}
         VC_CXX_FLAGS: "-w;-Wwrite-strings;-Werror=write-strings"
       run: |
-        cmake --workflow --preset ${{ matrix.preset }} -SCHINESE
+        cmake --workflow --preset ${{ matrix.preset }}
 
     #- name: Check formatting
     #  if: ${{ matrix.compiler.cc == 'clang' && matrix.preset == 'testing'}} 
